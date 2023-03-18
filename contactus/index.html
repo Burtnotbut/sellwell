@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>熱銷網</title>
+  <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="contactus_style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="wrap">
+      <h1 class="logo"><a>熱  銷  網</a></h1>
+      <span class="material-icons menuToggle">menu</span>
+      <nav class="nav-menu">
+        <a href="../index.php">卡片推薦</a>
+        <a>聯絡我們</a>
+		<a href="../board/index.php">討論區</a>
+        <a href="../members/index.html">會員專區</a>
+      </nav>
+    </div>
+  </div>
+  <div class="container">
+    <h1>熱銷網 聯絡我們</h1>
+	<form method="post" action="post.php">
+	  <div>請填寫下列資料(皆為必填項目)</div>
+	  <div>使用稱呼:<input name="usernick" /></div>
+	  <div>聯絡電話:<input name="phone" /></div>
+	  <div>收件信箱:<input name="email" /></div>
+	  <div>郵件主旨:<input name="title" /></div>
+	  <div>郵件內容:<textarea name="description" row="10"></textarea></div>
+	  <input type="submit" value="送出" />
+	</form>
+  </div>
+  <footer>
+    本網站僅作個人作品使用，圖片引用來自網路公開下載，不為營利用途
+  </footer>
+</body>
+
+</html>

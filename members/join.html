@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>熱銷網</title>
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="members_style.css">
+  
+  <script type="text/javascript">
+    function check()
+      {
+        if (document.myForm.account.value.length == 0)
+        {
+          alert("「使用者帳號」必填!");
+          return false;
+        }
+        if (document.myForm.password.value.length == 0)
+        {
+          alert("「使用者密碼」必填!");
+          return false;
+        }
+        if (document.myForm.name.value.length == 0)
+        {
+          alert("「姓名」必填!");
+          return false;
+        }
+        myForm.submit();					
+      }
+  </script>
+</head>
+
+<body>
+	<h1><a href="./index.html">熱  銷  網</a></h1>
+    <div class="join">
+	  <h1> 熱銷網 註冊會員</h1>
+	  <form action="addmember.php" method="post" name="myForm">
+	    <div>請填寫下列資料(帳號、密碼、姓名為必填項目)</div>
+	    <div>帳號：<input name="account" /></div>
+		<div>密碼：<input name="password" /></div>
+		<div>姓名：<input name="name" /></div>
+		<div>電話：<input name="telephone" /></div>
+		<div>地址：<input name="address" /></div>
+		<div>電郵：<input name="email" /></div>
+		<div>備註：<input name="comment" /></div>
+		<input type="button" value="加入會員" onclick="check()" />
+	  </form>
+	</div>
+  </body>
+</html>
