@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>熱銷網</title>
-  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="members_style.css">
- 
+  
   <script type="text/javascript">
     function check()
       {
@@ -32,20 +32,21 @@
 
 <body>
   <div>
-      <h1 class="title">熱  銷  網</h1>
+    <h1 class="title">熱  銷  網</h1>
       <nav>
         <ul class="flex-nav">
           <li><a href="../index.php">卡片推薦</a></li>
           <li><a href="../contactus/index.html">聯絡我們</a></li>
 		  <li><a href="../board/index.php">討論區</a></li>
-          <li><a>會員專區</a></li>
+          <li><a href="index.html">會員專區</a></li>
 		</ul>
       </nav>
   </div>
+  <div class="container">
     <div class="join">
-	  <h1>註冊會員</h1>
+	  <h1 class="smalltitle">註冊會員</h1>
 	  <form action="addmember.php" method="post" name="myForm">
-	    <div>請填寫下列資料(帳號、密碼、姓名為必填項目)</div>
+	    <p>請填寫下列資料(帳號、密碼、姓名為<u>必填項目</u>)</p>
 	    <div>帳號：<input name="account" /></div>
 		<div>密碼：<input name="password" /></div>
 		<div>姓名：<input name="name" /></div>
@@ -54,10 +55,12 @@
 		<div>電郵：<input name="email" /></div>
 		<div>備註：<input name="comment" /></div>
 		<input type="button" value="加入會員" onclick="check()" />
+        <a href="index.html">已有會員</a>
 	  </form>
 	</div>
-	<footer class="footer">
-      本網站僅作個人作品使用，圖片引用來自網路公開下載，不為營利用途
-    </footer>
-  </body>
+  </div>
+  <footer class="footer">
+    本網站僅作個人作品使用，圖片引用來自網路公開下載，不為營利用途
+  </footer>
+</body>
 </html>

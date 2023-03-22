@@ -1,5 +1,12 @@
 /* 留言板的內容 */
 
+div {
+	margin:4px;
+	border:0;
+	padding:0;
+	letter-spacing: 5px;
+}
+
 .container {
 	width: 1024px;
 	margin: 0 auto;
@@ -23,82 +30,44 @@
 
 /* 頭部與目錄 */
 
-/*
 body {
-  font-family: "Noto Sans TC", sans-serif;
-  line-height: 1.5;
-  line-height: 1;
+ max-width: 1280px;
+ margin: 0 auto;	
 }
-*/
 
-.header .wrap {
-  display: flex;
-  justify-content: space-between;
+.title {
+  color: #66DD00;
   position: relative;
-  align-items: center;
-  flex-wrap: wrap;
+  left: 50px;
 }
 
-.header {
-  background-color: #fff;
-  border-bottom: 1px solid #444;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+.smalltitle {
+  color: #BBBB00;
 }
 
-.wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.wrap h3 {
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 28px;
-  font-weight: 500;
-  color: #333;
-}
-.logo a {
-  display: block;
-  font-size: 30px;
-  color: #333;
-  font-weight: 700;
-  padding: 20px 0;
-  transition: .3s;
-}
-.logo:hover a{
-  color: #8f8f8f;
-}
-.menuToggle {
-  display: none;
-  cursor: pointer;
-}
-.nav-menu {
-  font-size: 0;
-  background-color: #fff;
-}
-.nav-menu a {
-  font-size: 20px;
-  color: #333;
-  font-weight: 700;
-  display: inline-block;
-  padding-left: 48px;
-  transition: .3s;
-}
-.nav-menu a:hover {
-  color: #8f8f8f;
+nav > ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.banner {
-  width: 100%;
-  height: 420px;
-  background: url("images/banner.jpg")center center / 100% 100%;
-  background-size: cover;
-  margin: 30px 0 60px;
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 40px 52px;
-  border-radius: 8px;
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: right;
 }
 
 /* 尾頁 */

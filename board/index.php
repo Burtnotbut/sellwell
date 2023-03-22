@@ -11,21 +11,19 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="wrap">
-      <h1 class="logo"><a>熱  銷  網</a></h1>
-      <span class="material-icons menuToggle">menu</span>
-      <nav class="nav-menu">
-        <a href="../index.php">卡片推薦</a>
-        <a href="../contactus/index.html">聯絡我們</a>
-		<a>討論區</a>
-        <a href="../members/index.html">會員專區</a>
+  <div>
+      <h1 class="title">熱  銷  網</h1>
+      <nav>
+	    <ul class="flex-nav">
+          <li><a href="../index.php">卡片推薦</a></li>
+          <li><a href="../contactus/index.html">聯絡我們</a></li>
+		  <li><a>討論區</a></li>
+          <li><a href="../members/index.html">會員專區</a></li>
+		</ul>
       </nav>
-    </div>
   </div>
-  
   <div class="container">
-    <h1>熱銷網 留言討論區</h1>
+    <h1 class="smalltitle">留言討論區</h1>
 	<div class="board">
 	  <?php
 	    $sql = 'SELECT * from board ORDER BY created_at DESC';
