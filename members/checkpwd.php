@@ -19,7 +19,7 @@
   */
   
   if ($result->num_rows) {
-    // 登入成功，num_rows有抓照比數資料 
+
 	
 	$expire = time() + 10;
 	setcookie("account", $account, $expire);
