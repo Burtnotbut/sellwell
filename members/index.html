@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>熱銷網</title>
   <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="members_style.css">
+
+  <script type="text/javascript">
+    function check()
+      {
+        if (document.myForm.account.value.length == 0)
+        {
+          alert("「帳號」必填");
+          return false;
+        }
+        if (document.myForm.password.value.length == 0)
+        {
+          alert("「密碼」必填");
+          return false;
+        }
+        myForm.submit();					
+      }
+  </script>
 </head>
 
 <body>
@@ -25,8 +43,9 @@
 	  <form action="checkpwd.php" method="post" name="myForm">
 	    <div>帳號:<input name="account" /></div>
 	    <div>密碼:<input name="password" /></div>
-	    <input type="submit" value="登入" align="right" />
-	    <a href="join.html" align="right">註冊</a>　
+	    <input type="button" value="登入" align="right" onclick="check()"/>
+		<a href="join.html" align="right">註冊</a>
+		　
 	  </form>
 	</div>
     <div class="part">

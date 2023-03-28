@@ -12,19 +12,21 @@
       {
         if (document.myForm.account.value.length == 0)
         {
-          alert("「使用者帳號」必填!");
+          alert("「帳號」必填");
           return false;
         }
         if (document.myForm.password.value.length == 0)
         {
-          alert("「使用者密碼」必填!");
+          alert("「密碼」必填");
           return false;
         }
         if (document.myForm.name.value.length == 0)
         {
-          alert("「姓名」必填!");
+          alert("「姓名」必填");
           return false;
-        }
+        }  else  {
+		  alert("加入會員");
+		} 
         myForm.submit();					
       }
   </script>
@@ -55,7 +57,7 @@
 		<div>電郵：<input name="email" /></div>
 		<div>備註：<input name="comment" /></div>
 		<input type="button" value="加入會員" onclick="check()" />
-        <a href="index.html">已有會員</a>
+        <a href="index.html">返回登入</a>
 	  </form>
 	</div>
   </div>

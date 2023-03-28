@@ -1,5 +1,9 @@
 /* 留言板的內容 */
 
+u {
+    text-decoration: #f00 underline;
+}
+
 div {
 	margin:4px;
 	border:0;

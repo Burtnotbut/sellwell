@@ -21,6 +21,5 @@
   $sql = "INSERT INTO members(account, password, name, telephone, address, email, comment) VALUES('$account', '$password', '$name', '$telephone', '$address', '$email', '$comment')";
   $result = $conn->query($sql);
   
-  header("location:index.html");
-  exit();
+  echo "<script>alert('加入會員成功，請重新登入'); location.href = 'index.html';</script>";
 ?>

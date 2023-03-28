@@ -4,7 +4,6 @@
     $account = $_COOKIE['account'];
   } else {
     header("Location: index.html");
-    header("Location: index.html");
   }
 ?>
 
@@ -15,6 +14,35 @@
   <title>熱銷網</title>
   <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="members_style.css">
+  
+  <script type="text/javascript">
+    function check()
+      {
+        if (document.myForm.bank.value.length == 0)
+        {
+          alert("「發卡銀行」必填");
+          return false;
+        }
+        if (document.myForm.card_name.value.length == 0)
+        {
+          alert("「卡片名稱」必填");
+          return false;
+        }
+        if (document.myForm.rate.value.length == 0)
+        {
+          alert("「優惠利率」必填");
+          return false;
+        }
+		if (document.myForm.comment.value.length == 0)
+        {
+          alert("「優惠內容」必填");
+          return false;
+        } else {
+		  alert("刊登成功");
+		}
+        myForm.submit();					
+      }
+  </script>
 </head>
 
 <body>
@@ -35,12 +63,13 @@
   <div class="container">
     <div class="add">
       <h1 class="smalltitle">新增信用卡情報</h1>
-        <form method="post" action="upload.php">
+        <form method="post" action="upload.php" name="myForm">
+		  <p>請填寫下列資料(皆為<u>必填項目</u>)</p>
 	      <div>發卡銀行:<input name="bank" /></div>
 		  <div>卡片名稱:<input name="card_name" /></div>
 		  <div>優惠利率:<input name="rate" /></div>
 		  <div>優惠內容:<textarea name="comment"></textarea></div>
-          <input type="submit" value="刊登" align="right" />
+          <input type="button" value="刊登" align="right" onclick="check()" />
 		  <a href="index.html">登出</a>
         </form>
 	</div>

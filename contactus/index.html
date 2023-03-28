@@ -6,6 +6,40 @@
   <title>熱銷網</title>
   <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="contactus_style.css">
+  
+  <script type="text/javascript">
+    function check()
+      {
+        if (document.myForm.usernick.value.length == 0)
+        {
+          alert("「使用稱呼」必填");
+          return false;
+        }
+        if (document.myForm.phone.value.length == 0)
+        {
+          alert("「連絡電話」必填");
+          return false;
+        }
+        if (document.myForm.email.value.length == 0)
+        {
+          alert("「收件信箱」必填");
+          return false;
+        }
+		if (document.myForm.title.value.length == 0)
+        {
+          alert("「郵件主旨」必填");
+          return false;
+        }
+		if (document.myForm.description.value.length == 0)
+        {
+          alert("「郵件內容」必填");
+          return false;
+        }  else  {
+		  alert("送出成功，若有其他問題，歡迎填寫告知");
+		}
+        myForm.submit();					
+      }
+  </script>
 </head>
 
 <body>
@@ -22,19 +56,18 @@
   </div>
   <div class="container">
     <h1 class="smalltitle">聯絡我們</h1>
-	<form method="post" action="post.php">
+	<form method="post" action="post.php" name="myForm">
 	  <div>請填寫下列資料(皆為<u>必填項目</u>)</div>
 	  <div>使用稱呼:<input name="usernick" /></div>
 	  <div>聯絡電話:<input name="phone" /></div>
 	  <div>收件信箱:<input name="email" /></div>
 	  <div>郵件主旨:<input name="title" /></div>
 	  <div>郵件內容:<textarea name="description" row="10"></textarea></div>
-	  <input type="submit" value="送出" />
+	  <input type="button" value="送出" onclick="check()" />
 	</form>
   </div>
   <footer>
     本網站僅作個人作品使用，圖片引用來自網路公開下載，不為營利用途
   </footer>
 </body>
-
 </html>

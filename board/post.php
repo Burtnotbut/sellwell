@@ -3,10 +3,13 @@
   $author = $_POST["author"];
   $title = $_POST["title"];
   $description = $_POST["description"];
+  /*
   $current_time = date("Y-m-d H:i:s");
+  */
   
   if (empty($author) || empty($title) || empty($description)) {
-	die('資料不完整');
+	//header("location:index.php");
+	//die('資料不完整');
   }
   
   $servername = 'localhost';

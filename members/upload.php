@@ -22,6 +22,7 @@
   $sql = "INSERT INTO card_info(bank, card_name, rate, comment) VALUES('$bank', '$card_name', '$rate', '$comment')";
   $result = $conn->query($sql);
   
+  
   header("location:upproduct.php");
   exit();
 ?>

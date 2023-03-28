@@ -8,6 +8,30 @@
   <title>熱銷網</title>
   <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="board_style.css">
+  
+  <script type="text/javascript">
+    function check()
+      {
+        if (document.myForm.author.value.length == 0)
+        {
+          alert("「作者」必填");
+          return false;
+        }
+        if (document.myForm.title.value.length == 0)
+        {
+          alert("「主題」必填");
+          return false;
+        }
+        if (document.myForm.description.value.length == 0)
+        {
+          alert("「內容」必填");
+          return false;
+        }  else  {
+		  alert("送出成功");
+		}
+        myForm.submit();					
+      }
+  </script>
 </head>
 
 <body>
@@ -38,11 +62,12 @@
 		}
 	  ?>
     </div>
-	<form method="post" action="post.php">
+	<form method="post" action="post.php" name="myForm">
+	  <p>請填寫下列資料(作者、主題、內容皆為<u>必填項目</u>)</p>
 	  <div>作者:<input name="author" /></div>
 	  <div>主題:<input name="title" /></div>
 	  <div>內容:<textarea name="description" row="10"></textarea></div>
-	  <input type="submit" value="送出" />
+	  <input type="button" value="送出" onclick="check()" />
 	</form>
   </div>
   <footer>
