@@ -22,7 +22,7 @@
 ## 📷 預覽
 
 <h1>💳 SellWell</h1>
-<span style="font-size:18px;">
+<div style="font-size:18px;">
 👋 Hi, I'm <b>Pohsun Chiang</b>!<br>
 This is a credit card information sharing platform designed in the style of a shopping cart website.<br>
 <br>
@@ -40,4 +40,4 @@ The <b>Contact Us</b> section allows users to get in touch with the site admin f
 Registered users gain access to exclusive features, such as credit card deals and personalized recommendations.<br><br>
 </div>
 Thank you for visiting! Feel free to sign up and join the conversation to discover and share the latest credit card offers.<br>
-</span>
+</div>
