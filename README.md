@@ -10,19 +10,17 @@
 - **版本控管**: 專案使用 Git 進行版本管理，應用於儲存庫追蹤與維護變更<br>
 - **製作日期**: 2023年3月<br>
 - **製作內容**: <br>
-<div style="margin-left: 60px;">
 首頁展示 <b>2023 年熱門信用卡推薦榜單</b>，並提供連結至官方網站。<br>
 訪客可在 <b>留言板</b>上發表意見，與其他使用者交流信用卡心得。<br>
 透過 <b>聯絡我們</b> 功能，可直接聯繫站長反映問題或建議。<br>
 註冊會員後可享有更多專屬功能，如：信用卡優惠情報通知、個人化推薦等。<br><br>
-</div>
 感謝你的造訪，歡迎註冊成為會員，一起交流、分享更多信用卡資訊！<br>
 </span>
 
 ## 📷 預覽
 
 <h1>💳 SellWell</h1>
-<div style="font-size:18px;">
+<span style="font-size:18px;">
 👋 Hi, I'm <b>Pohsun Chiang</b>!<br>
 This is a credit card information sharing platform designed in the style of a shopping cart website.<br>
 <br>
@@ -33,11 +31,9 @@ This is a credit card information sharing platform designed in the style of a sh
 - **Version Control**: Managed with Git for tracking changes and maintaining the codebase.<br>
 - **Development Date**: March 2022<br>
 - **Project Overview**: <br>
-<div style="margin-left: 60px;">
 The homepage features the <b>Top Credit Card Recommendations of 2023</b> with links to official websites.<br>
 Visitors can post comments on the <b>Message Board</b> to share their thoughts with other users.<br>
 The <b>Contact Us</b> section allows users to get in touch with the site admin for questions or suggestions.<br>
 Registered users gain access to exclusive features, such as credit card deals and personalized recommendations.<br><br>
-</div>
 Thank you for visiting! Feel free to sign up and join the conversation to discover and share the latest credit card offers.<br>
-</div>
+</span>
