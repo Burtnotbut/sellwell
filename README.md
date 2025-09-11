@@ -35,6 +35,5 @@ The homepage features the <b>Top Credit Card Recommendations of 2023</b> with li
 Visitors can post comments on the <b>Message Board</b> to share their thoughts with other users.<br>
 The <b>Contact Us</b> section allows users to get in touch with the site admin for questions or suggestions.<br>
 Registered users gain access to exclusive features, such as credit card deals and personalized recommendations.<br><br>
-
 Thank you for visiting! Feel free to sign up and join the conversation to discover and share the latest credit card offers.<br>
 </span>
