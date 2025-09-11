@@ -18,6 +18,13 @@
 </span>
 
 ## 📷 預覽
+![投影片1](https://github.com/user-attachments/assets/d841e73f-0985-42fa-a9f1-5b7fe599c50e)
+![投影片2](https://github.com/user-attachments/assets/877a7ef7-757e-44c7-9bee-9ddb78bd207e)
+![投影片3](https://github.com/user-attachments/assets/284cf06a-5b3d-44f0-bff9-cd9970eed065)
+![投影片4](https://github.com/user-attachments/assets/99c97680-e158-42da-81ac-826eadeeb021)
+![投影片5](https://github.com/user-attachments/assets/610caa82-450c-4548-adf7-debc9da5fc48)
+![投影片6](https://github.com/user-attachments/assets/cfe3f676-3bc0-478f-9c36-2c1f4c48f11a)
+![投影片7](https://github.com/user-attachments/assets/e4b0160c-874a-46c0-9c20-f85039bc980d)
 
 <h1>💳 SellWell</h1>
 <span style="font-size:18px;">
